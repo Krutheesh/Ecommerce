@@ -8,7 +8,7 @@ function Product() {
   return (
     <div>
       
-     <div className=' px-[10rem] flex '>
+     <div className=' px-[10rem] py-[4rem] flex '>
 
       <div className='w-[30%]'>
         <FilterSection/>

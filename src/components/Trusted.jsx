@@ -7,20 +7,20 @@ function Trusted() {
       <div >
         Tusted by 1000+ companies
       </div>
-      <div className='flex justify-between items-center  '>
-        <div className='flex justify-between items-center space-x-4 '>
+      <div className='grid grid-rows-2 grid-flow-col gap-4 md:grid md:grid-rows-1'>
+        <div className='flex justify-center items-center space-x-4 '>
           <div><FaMicrosoft className='text-[2rem]'/></div>
           <div>Microsoft</div>
         </div>
-        <div className='flex justify-between items-center space-x-4  '>
+        <div className='flex justify-center items-center space-x-4  '>
           <div> <FaFacebook className='text-[2rem]'/></div>
           <div>Facebook</div>
         </div>
-        <div className='flex justify-between items-center space-x-4  '>
+        <div className='flex justify-center items-center space-x-4  '>
           <div><FaAmazon className='text-[2rem]'/></div>
           <div>Amazon</div>
         </div>
-        <div className='flex justify-between items-center space-x-4 '>
+        <div className='flex justify-center items-center space-x-4 '>
           <div><FaAtlassian className='text-[2rem]'/></div>
         <div>Atlassian</div>
         </div>

@@ -12,6 +12,7 @@ function Cart() {
       return ac+ele.ai.price*ele.noItems 
   },0)
   // console.log(sum)
+  console.log(items.length)
  
   return (
     <div className="px-[8rem]">

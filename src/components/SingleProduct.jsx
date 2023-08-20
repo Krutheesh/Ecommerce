@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../Slice'
 import { useParams } from 'react-router-dom'
+import toast, {Toaster} from 'react-hot-toast'
 function SingleProduct() {
   const {id} = useParams()
   // console.log(id)
@@ -43,8 +44,11 @@ function SingleProduct() {
         </div>
 
         <div className='my-[2rem]'>
-          <button className='p-3 bg-[#9933ff] text-white font-semibold' onClick={() => handlePage(singlePage[0].name)} > Add to Cart</button>
+          <button className='p-3 bg-[#9933ff] text-white font-semibold' onClick={() =>{ 
+            toast.success("added to cart")
+            handlePage(singlePage[0].name)}} > Add to Cart</button>
         </div>
+        <Toaster/>
         </div>
 
         <div>
