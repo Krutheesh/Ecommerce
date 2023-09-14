@@ -39,9 +39,7 @@ function Nav() {
         <li className='hover:text-black cursor-pointer'>
           <Link to='/contact'>Contact Us</Link>
           </li>
-        <li className='hover:text-black cursor-pointer'>
-          <Link to='/login'>Login</Link>
-          </li>
+        
 
           
         <li className='hover:text-black cursor-pointer text-[1.7rem] relative'>

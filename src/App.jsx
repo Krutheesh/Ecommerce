@@ -12,7 +12,8 @@ function App() {
       <Nav/>
       <Outlet/>
       <ProductRedux/>
-      <Footer/>
+      
+       
     </div>
     
   )

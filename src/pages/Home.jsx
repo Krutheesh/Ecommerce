@@ -3,6 +3,7 @@ import Headerone from "../components/Headerone";
 import Services from "../components/Services";
 import Trusted from "../components/Trusted";
 import Features from "../components/Features";
+import Footer from "./Footer";
 function Home() {
   return (
     <div>
@@ -23,6 +24,7 @@ function Home() {
       
         <Trusted/>
       </div>
+      <Footer/>
     </div>
   );
 }

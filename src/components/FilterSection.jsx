@@ -44,11 +44,9 @@ const companyHandler = (e) => {
 }
   console.log(mobile)
   return (
-    <div>
-      <div className='py-[2rem] '>
-        <input type="text" placeholder='search' className='px-2 border-gray-600 border-2'/>
-      </div>
-        <div className='space-y-3 text-gray-600 '>
+    <div  className=' md:pl-0' >
+      
+        <div className='space-y-3 my-[2.5rem] text-gray-600 '>
       <div className=' font-semibold text-gray-600'>
      Category
       </div>

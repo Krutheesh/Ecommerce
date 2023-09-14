@@ -15,14 +15,14 @@ function Cart() {
   console.log(items.length)
  
   return (
-    <div className="px-[8rem]">
+    <div className="px-[1.2rem] md:px-[8rem] ">
       <div className="mx-auto max-w-7xl px-2 lg:px-0">
-        <div className="mx-auto max-w-2xl py-8 lg:max-w-7xl">
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="mx-auto max-w-2xl pt-8 lg:max-w-7xl">
+          <h1 className="text-3xl font-bold tracking-tight mt-[3rem] text-gray-900 sm:text-4xl">
             Cart items
           </h1>
-          <div className="flex justify-between">
-            <div className="w-[70%]">
+          <div className="flex flex-col md:flex-row justify-between">
+            <div className="md:w-[70%]">
               { (items.length !==0 )?items.map((ele, index) => {
                 return (
                   <form
@@ -151,7 +151,7 @@ function Cart() {
             >
               <h2
                 id="summary-heading"
-                className=" border-b border-gray-200 px-4 py-3 text-lg font-medium text-gray-900 sm:p-4"
+                className=" border-b border-gray-200 px-[1rem] py-3 text-lg font-medium text-gray-900 sm:p-4"
               >
                 Price Details
               </h2>

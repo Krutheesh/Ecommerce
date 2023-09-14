@@ -6,7 +6,7 @@ function ProductList() {
   console.log(products)
   return (
    
-     <div className='grid grid-cols-3 gap-4 gap-y-8'>
+     <div className=' flex flex-col justify-between space-y-5 md:space-y-0 items-center md:grid md:grid-cols-3 md:gap-4 md:gap-y-8 '>
       {
         products.map((ele,index) => 
            (

@@ -30,13 +30,13 @@ if (valop=='high_to_low'){
 
   return (
     <div className='flex items-center justify-between py-[2rem]'>
-      <div className='text-[1.5rem] font-semibold text-[#9933ff] '>
+      <div className='text-[1.5rem] font-semibold text-[#9933ff] hidden md:block '>
         KStore
       </div>
-      <div className=' font-semibold text-gray-600 '>
+      <div className=' font-semibold text-gray-600 hidden md:block '>
       Products available
       </div>
-      <div>
+      <div className='mx-auto md:mx-0'>
         <select  className='border-gray-600 border-2' name="" id="" value={valop}  onChange={handleSort}>
         <option value="all">default</option>
           <option value="low_to_high" >Price(low to high)</option>

@@ -8,13 +8,13 @@ function Product() {
   return (
     <div>
       
-     <div className=' px-[10rem] py-[4rem] flex '>
+     <div className='px-[1rem] md:px-[5rem] lg:px-[10rem] py-[4rem] flex '>
 
-      <div className='w-[30%]'>
+      <div className='md:w-[30%]  '>
         <FilterSection/>
       </div>
 
-      <div className='w-[70%]'>
+      <div className='md:w-[70%]'>
       <Sort/>
         <ProductList/>
        
